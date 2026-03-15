@@ -75,7 +75,7 @@ function TodoItemComponent({
         checked={todo.completed}
         onChange={() => onToggle(todo)}
         disabled={isToggling}
-        className="h-4 w-4 rounded border-zinc-300 text-foreground focus:ring-2 focus:ring-foreground/20"
+        className="h-4 w-4 rounded border-zinc-300 accent-primary focus:ring-2 focus:ring-primary/30"
         aria-label={todo.completed ? "Mark as incomplete" : "Mark as complete"}
       />
 
