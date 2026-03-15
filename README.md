@@ -1,4 +1,4 @@
-# Todo – Task Management App
+# Todo
 
 This project is a small Todo/Task management application built as part of a frontend coding assignment. The goal was to build a single-page app that interacts with a public REST API and demonstrates basic CRUD operations using a modern React stack.
 

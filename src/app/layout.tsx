@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Todo — Task Management",
+  title: "Todo — App",
   description: "Todo/Task Management app with JSONPlaceholder API",
 };
 

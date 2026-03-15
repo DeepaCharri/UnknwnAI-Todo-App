@@ -200,7 +200,7 @@ export default function Home() {
       <div className="min-h-screen bg-background text-foreground">
         <header className="sticky top-0 z-40 border-b border-border bg-card/95 backdrop-blur">
           <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
-            <h1 className="text-xl font-semibold">Todo</h1>
+            <h1 className="text-xl font-bold text-teal-500">Todo - Task Management App</h1>
             <button
               type="button"
               onClick={toggleTheme}
