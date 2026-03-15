@@ -218,7 +218,7 @@ function Pagination({
         type="button"
         onClick={() => onPageChange(Math.max(1, page - 1))}
         disabled={page <= 1}
-        className="rounded-lg hover:bg-teal-600 bg-card px-3 py-1.5 text-sm disabled:opacity-50 bg-teal-500 text-white"
+        className="rounded-lg bg-primary px-3 py-1.5 text-sm font-medium text-primary-foreground hover:opacity-90 disabled:opacity-50"
       >
         Previous
       </button>
@@ -231,7 +231,7 @@ function Pagination({
         type="button"
         onClick={() => onPageChange(Math.min(totalPages, page + 1))}
         disabled={page >= totalPages}
-        className="rounded-lg hover:bg-teal-600 bg-card px-3 py-1.5 text-sm disabled:opacity-50 bg-teal-500 text-white"
+        className="rounded-lg bg-primary px-3 py-1.5 text-sm font-medium text-primary-foreground hover:opacity-90 disabled:opacity-50"
       >
         Next
       </button>

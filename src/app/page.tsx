@@ -200,7 +200,7 @@ export default function Home() {
       <div className="min-h-screen bg-background text-foreground">
         <header className="sticky top-0 z-40 border-b border-border bg-card/95 backdrop-blur">
           <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
-            <h1 className="text-xl font-bold text-teal-500">Todo - Task Management App</h1>
+            <h1 className="text-xl font-bold text-primary">Todo - Task Management App</h1>
             <button
               type="button"
               onClick={toggleTheme}
@@ -239,7 +239,7 @@ export default function Home() {
               </span>
               <div className="h-2 flex-1 max-w-[120px] rounded-full bg-muted overflow-hidden">
                 <div
-                  className="h-full rounded-full bg-green-500 transition-all"
+                  className="h-full rounded-full bg-primary transition-all"
                   style={{
                     width: `${(todos.filter((t) => t.completed).length / todos.length) * 100}%`,
                   }}

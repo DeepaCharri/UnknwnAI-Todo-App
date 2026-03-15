@@ -102,7 +102,7 @@ export function TodoForm({ users, onSubmit }: TodoFormProps) {
       <button
         type="submit"
         disabled={submitting || users.length === 0}
-        className="rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-medium text-background hover:opacity-90 disabled:opacity-50"
+        className="rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90 disabled:opacity-50"
       >
         {submitting
           ? "Adding..."
